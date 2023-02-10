@@ -2,14 +2,18 @@
 
 Analyse von knapp 200 Protokollen des Zürcher Stadtparlaments der Legislatur 2018-2022. 
 
-
 ## 0 Checkliste
 
  - These formulieren:
+ Anzahl und Umfanng der Wortmeldungen der einzlenen Mitglieder des Zürcher Stadtparlaments variieren stark. Die Vielredner sind - gefühlt - fast ausschliesslich männlich. Frauen kommen deutlich weniger zu Wort. 
  - These checken: Relevanz? Neu? Aufwand/Ertrag?
+ Es gab bereits vergleichbare Analysen von Redezeiten oder Anzahl Wortmeldungen in Parlamenten, unter anderem unter dem Aspekt der Beteiligung von Frauen. Neu ist - meines Wissens - die schriftlichen Protokolle und die Länge der einzelnen Voten als Datenquelle nutzen. 
  - Knackpunkt bestimmen.
+ Die als PDF-Dateien veröffentlichten Protokolle sind nicht optimal strukturiert und enthalten zahlreiche Informationen, die aussortiert werden müssen. 
  - Briefing Person konsultieren
  - Daten beschaffen/reinigen/analysieren/visualisieren
+ Die Beschaffung der öffentlich zugänglichen Protokolle war problemlos möglich, der Download konnte über ein API automatisiert werden. 
+ Die Bereinigung und Aufbereitung der Daten war aufwändiger als zunächst erwartet.
  - Ergänzen durch klassische Recherche
  - Dokumentieren Code und statistische Annahmen
  - Link auf Publikation
