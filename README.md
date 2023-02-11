@@ -50,7 +50,7 @@ Wer sind die VielrednerInnen im Stadtparlament? Wie steht es um den Redeanteil d
 
 ## 4 Artikel
 
-.
+Publikation noch nicht erfolgt.
 
 ## 5 Aufwandlogbuch
  - November/Dezember 2022: erste Versuche zur automatisierten Auswertung der Protokolle. ca. 8 Stunden
