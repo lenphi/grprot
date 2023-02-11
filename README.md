@@ -1,5 +1,5 @@
 # GRProt
-# Analyse von Protokoll des Zürcher Stadtparlaments
+# Analyse von Protokollen des Zürcher Stadtparlaments
 
 Ausgewertet wurden die Protokolle von knapp 200 Sitzungen der Legislatur 2018-2022 des Zürcher Gemeinderats 
 
