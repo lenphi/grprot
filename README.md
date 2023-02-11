@@ -1,24 +1,37 @@
 # GRProt
+# Analyse von Protokoll des Zürcher Stadtparlaments
 
-Analyse von knapp 200 Protokollen des Zürcher Stadtparlaments der Legislatur 2018-2022. 
+Ausgewertet wurden die Protokolle von knapp 200 Sitzungen der Legislatur 2018-2022 des Zürcher Gemeinderats 
 
 ## 0 Checkliste
 
  - These formulieren:
- Anzahl und Umfanng der Wortmeldungen der einzlenen Mitglieder des Zürcher Stadtparlaments variieren stark. Die Vielredner sind - gefühlt - fast ausschliesslich männlich. Frauen kommen deutlich weniger zu Wort. 
+ Anzahl und Umfanng der Wortmeldungen der einzlenen Mitglieder des Zürcher Stadtparlaments variieren sehr stark. Die Vielredner sind - gefühlt - fast ausschliesslich Männer. Frauen kommen deutlich weniger zu Wort. Auch die Parteien sind, was die Wortmeldungen betrifft, nicht unbedingt proportional zu ihrem Sitzanteil vertreten.
+ 
  - These checken: Relevanz? Neu? Aufwand/Ertrag?
- Es gab bereits vergleichbare Analysen von Redezeiten oder Anzahl Wortmeldungen in Parlamenten, unter anderem unter dem Aspekt der Beteiligung von Frauen. Neu ist - meines Wissens - die schriftlichen Protokolle und die Länge der einzelnen Voten als Datenquelle nutzen. 
+ Es gab bereits vergleichbare Analysen von Redezeiten oder Anzahl Wortmeldungen in Parlamenten, unter anderem unter dem Aspekt der Beteiligung von Frauen. Neu ist - meines Wissens - dass schriftliche Protokolle als Datenquelle für eine Auswertung des Umfangs der Voten genutzt werden. 
+ 
  - Knackpunkt bestimmen.
  Die als PDF-Dateien veröffentlichten Protokolle sind nicht optimal strukturiert und enthalten zahlreiche Informationen, die aussortiert werden müssen. 
+ 
  - Briefing Person konsultieren
+ entfällt
+ 
  - Daten beschaffen/reinigen/analysieren/visualisieren
  Die Beschaffung der öffentlich zugänglichen Protokolle war problemlos möglich, der Download konnte über ein API automatisiert werden. 
  Die Bereinigung und Aufbereitung der Daten war aufwändiger als zunächst erwartet.
+ 
  - Ergänzen durch klassische Recherche
+Anfragen bei Parlamentsdiensten zum Start des offiziellen "Genderwatch-Protokolls" sowie bei der Urheberin des entsprechenden Vorstosses
+
  - Dokumentieren Code und statistische Annahmen
+ Anmerkungen im Code
+ 
  - Link auf Publikation
+bei Abgabe noch nicht publziert 
+
  - Aufwandlogbuch
- - 
+ 
 
 ## 1 Datenquelle
 
@@ -40,8 +53,13 @@ Wer sind die VielrednerInnen im Stadtparlament? Wie steht es um den Redeanteil d
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
 ## 5 Aufwandlogbuch
-
- - Einlesen der Protokolle (PDF Files) ermöglichen: 4 Stunden
+ - November/Dezember 2022: erste Versuche zur automatisierten Auswertung der Protokolle. ca. 8 Stunden
+ - Einlesen der Protokolle (PDF Files) mittels externem Tool Parsr ermöglichen: ca. 8 Stunden. Anschliessend werden die Daten aus den von Parsr aus den PDF-Protokollen erstellten JSON-files extrahiert. Aufwändig und fehleranfällig. ca. 8 Stunden
  - Methode finden, um die nur RednerInnen und ihre Voten herauszufiltern: 4 Stunden
  - Zahlreiche Fehler/Probleme in den Protokollen bereinigen (falsche geschriebene Namen, etc.) 8 Stunden
- - Auswertung 4 Stunden
+ - Januar/Februar 2023: ChatGPT etmöglicht mir die Entwicklung einer neuen Methode, um die Daten mittels pdfminer direkt aus den PDFs zu extrahieren. Die Resultate sind deutlich besser als vorher. ca- 4 Stunden
+ - Januar/Februar 2023, ebenfalls mit ChatGPT: Entwicklung einer Korrekturfunktion, die falsche geschriebene Namen und Parteizuordnungen automatisch korrigiert (statt wie vorher manuell). ca. 2 Stunden
+ - Auswertungen und Grafiken: ca. 8 Stunden
+ - Artikel: ca. 4 Stunden
+ - Dokumentation, etc. ca. 4 Stunden
+ - Artikel schreiben: 4 Stunden
