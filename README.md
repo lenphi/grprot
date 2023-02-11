@@ -50,16 +50,15 @@ Wer sind die VielrednerInnen im Stadtparlament? Wie steht es um den Redeanteil d
 
 ## 4 Artikel
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+.
 
 ## 5 Aufwandlogbuch
  - November/Dezember 2022: erste Versuche zur automatisierten Auswertung der Protokolle. ca. 8 Stunden
- - Einlesen der Protokolle (PDF Files) mittels externem Tool Parsr ermöglichen: ca. 8 Stunden. Anschliessend werden die Daten aus den von Parsr aus den PDF-Protokollen erstellten JSON-files extrahiert. Aufwändig und fehleranfällig. ca. 8 Stunden
+ - Einlesen der Protokolle (PDF Files) mittels externem Tool [Parsr](https://github.com/axa-group/Parsr) ermöglichen: ca. 8 Stunden. Anschliessend werden die Daten aus den von Parsr aus den PDF-Protokollen erstellten JSON-files extrahiert. Aufwändig und fehleranfällig. ca. 8 Stunden
  - Methode finden, um die nur RednerInnen und ihre Voten herauszufiltern: 4 Stunden
  - Zahlreiche Fehler/Probleme in den Protokollen bereinigen (falsche geschriebene Namen, etc.) 8 Stunden
- - Januar/Februar 2023: ChatGPT etmöglicht mir die Entwicklung einer neuen Methode, um die Daten mittels pdfminer direkt aus den PDFs zu extrahieren. Die Resultate sind deutlich besser als vorher. ca- 4 Stunden
- - Januar/Februar 2023, ebenfalls mit ChatGPT: Entwicklung einer Korrekturfunktion, die falsche geschriebene Namen und Parteizuordnungen automatisch korrigiert (statt wie vorher manuell). ca. 2 Stunden
+ - Januar/Februar 2023: Mit Unterstützung von ChatGPT zentrale Komponenten des Codes von Grund auf neu geschrieben. Die Daten werden jetzt mittels pdfminer direkt aus den PDFs extrahiert. Die Resultate sind deutlich besser als vorher. Eine neue Korrekturfunktion korrigiert falsch geschriebene Namen und Parteizuordnungen automatisch (bisher manuell). ca. 6 Stunden
  - Auswertungen und Grafiken: ca. 8 Stunden
- - Artikel: ca. 4 Stunden
+ - Artikel schreiben: ca. 4 Stunden
  - Dokumentation, etc. ca. 4 Stunden
- - Artikel schreiben: 4 Stunden
+ 
